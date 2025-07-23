@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import groq
+
 
 # Replace this with your actual Groq API key
 GROQ_API_KEY = "whatever"
