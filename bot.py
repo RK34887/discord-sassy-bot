@@ -5,7 +5,7 @@ import os
 
 #force redeploy
 # Load your GROQ_API_KEY from environment or set directly here
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "your-groq-api-key"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") 
 
 intents = discord.Intents.default()
 intents.message_content = True
