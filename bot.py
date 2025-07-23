@@ -3,6 +3,7 @@ from discord.ext import commands
 import requests
 import os
 
+
 # Load your GROQ_API_KEY from environment or set directly here
 GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "your-groq-api-key"
 
