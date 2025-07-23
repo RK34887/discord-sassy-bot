@@ -49,4 +49,4 @@ async def sass(ctx, *, question):
         await ctx.send("Sorry, something went wrong with GROQ.")
 
 # Run your bot
-bot.run("your-discord-bot-token")
+bot.run(os.getenv("DISCORD_TOKEN"))
